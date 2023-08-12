@@ -5,7 +5,8 @@
   "type":"module",
   "main": "server.js",
   "scripts": {
-    "dev":"concurrently\"npm start\"\"npm run coursefrontend\""
+  "dev":"nodemon server.js",
+  "start":"node server.js"
   },
   "author": "",
   "license": "ISC",
